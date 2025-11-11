@@ -1,6 +1,27 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root{
+  --off-white: rgba(#FAF9E8);
+  --fw: 100vw;
+  --fh: 100vh;
+
+}
+
+.background{
+  display: flex;
+  height: var(--fh);
+  width: var(--fw);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: var(--off-white);
+}
+
+text{
+  display: flex;
+  font-size: 3vh;
+}
+
+eq{
+  text-align:center;
+  font-family: "Computer Modern", serif;
+  font-size: 100vh;
 }
