@@ -1,6 +1,5 @@
-
 import { createFileRoute } from '@tanstack/react-router';
-import eq from '../ReactElements';
+import '../eq-eq';
  
 export const Route = createFileRoute('/')({
   component: Index,
@@ -8,11 +7,11 @@ export const Route = createFileRoute('/')({
 
 function Index() {
   return (
-    <div className="p-2">
+    <div>
       <h3 className='text' >Welcome Home!</h3>
       <br />
       <br />
-      <eq></eq>
+      <eq-eq>Ax + By = C</eq-eq>
     </div>
   )
 }
