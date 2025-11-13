@@ -1,27 +1,42 @@
 :root{
   --off-white: rgba(#FAF9E8);
+  --off-black: rgba(187, 38, 38, 0.87);
   --fw: 100vw;
   --fh: 100vh;
+  --text-color: var(--off-white);
+}
 
+html{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
 }
 
 .background{
   display: flex;
-  height: var(--fh);
-  width: var(--fw);
+  height: 400px;
+  width: 100vw;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  color: var(--off-white);
+  background-color: var(--off-black);
 }
 
 text{
   display: flex;
-  font-size: 3vh;
+  font-size: 10px;
+  color: var(--text-color);
 }
 
 .eq{
   text-align:center;
   font-family: "Computer Modern", serif;
-  font-size: 100vh;
+  font-size: 10px;
+  color: var(--text-color);
 }

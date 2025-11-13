@@ -1,14 +1,19 @@
 import { useState } from 'react';
 
-export default function Eq({value}) {
-    const [equation, setequation] = useState('');
-    setequation(value);
+export default function Eq({ value }) {
+    
+    const [Equation, setEquation] = useState('');
+    
+    if (Equation != value) {
+        setEquation(value)
+    };
+        
 
     return(
-        <div>
-            <p>Equation:</p>
+        <>
+            <p className='text'>Equation:</p>
             <br />
-            <div className='eq'>{equation}</div>
-        </div>
+            <a className='eq'>{Equation}</a>
+        </>
     )
 }

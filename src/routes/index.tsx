@@ -7,11 +7,15 @@ export const Route = createFileRoute('/')({
 
 function Index() {
   return (
-    <div>
-      <h3 className='text' >Welcome Home!</h3>
-      <br />
-      <br />
-      <Eq value=''></Eq>
-    </div>
+    <>
+      
+      <head><title>Physics Reference Site</title>Physics Reference</head>
+      <div id ='root' className='background'>
+        <h3 className='text' >Welcome Home!</h3>
+        <br />
+        <br />
+        <Eq value='Ax + By = C'/>
+      </div>
+    </>
   )
 }
