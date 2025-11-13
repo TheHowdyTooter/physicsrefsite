@@ -11,7 +11,7 @@ function Index() {
       <h3 className='text' >Welcome Home!</h3>
       <br />
       <br />
-      <Eq>Ax + By = C</Eq>
+      <Eq value=''></Eq>
     </div>
   )
 }

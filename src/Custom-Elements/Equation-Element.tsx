@@ -1,7 +1,14 @@
-export default function Eq() {
-    return(
-        <p className='eq'>
+import { useState } from 'react';
 
-        </p>
+export default function Eq({value}) {
+    const [equation, setequation] = useState('');
+    setequation(value);
+
+    return(
+        <div>
+            <p>Equation:</p>
+            <br />
+            <div className='eq'>{equation}</div>
+        </div>
     )
 }
