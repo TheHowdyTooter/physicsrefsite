@@ -6,7 +6,7 @@
   --standard-eq-size: 10px;
   --standard-text-size: 20px;
   --standard-heading-size: 30px;
-  font-family: 'New Century Schoolbook', 'TeX Gyre Schola', serif
+  font-family: 'New Century Schoolbook', 'TeX Gyre Schola', serif;
   --equation-font: "Computer Modern", serif;
 }
 
@@ -29,9 +29,8 @@ html{
   display: flex;
   width: 100vw;
   height: 10vh;
-  justify-content: flex-end;
-  align-items: center;
-  
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .interactiveBoxPre{
@@ -62,8 +61,9 @@ html{
   display: flex;
   width: 50vw;
   height: 60px;
-  background-color: var(--off-black);
-  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: var(--off-white);
+  border-radius: 10px;
   color: var(--text-color);
   font-size: var(--standard-text-size);
   font-family: var(--standard-font);
@@ -83,6 +83,15 @@ html{
   color: var(--text-color);
 }
 
+.linkBox{
+  display:flex;
+  width: 100px;
+  height:30px;
+  background-color: var(--off-white);
+  border: var(--off-white);
+  border-radius:5px;
+}
+
 /*END INDIVIDUAL MODULES*/
 
 
@@ -97,8 +106,12 @@ html{
 
 .text{
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: var(--standard-text-size);
   color: var(--text-color);
+  text-decoration: none;
+  background: rgba(0, 0, 0, 0);
 }
 
 .eq{
