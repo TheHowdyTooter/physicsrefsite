@@ -1,0 +1,110 @@
+/*INIT SECTION*/
+:root{
+  --off-white: rgba(#FAF9E8);
+  --off-black: rgba(0, 0, 0, 0.95);
+  --text-color: rgba(246, 247, 220, 0.829);
+  --standard-eq-size: 10px;
+  --standard-text-size: 20px;
+  --standard-heading-size: 30px;
+  font-family: 'New Century Schoolbook', 'TeX Gyre Schola', serif
+  --equation-font: "Computer Modern", serif;
+}
+
+html{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content:center;
+  align-items:flex-start;
+  background-color: var(--off-black);
+}
+
+/*END INIT SECTION*/
+
+
+
+/*ORGANIZATION BOXES*/
+
+.headingBox{
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  justify-content: flex-end;
+  align-items: center;
+  
+}
+
+.interactiveBoxPre{
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30vh;
+}
+
+.interactiveBoxPost{
+  display: flex;
+  width: 100vw;
+  height: 90vh;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2vh;
+}
+
+/*END ORGANIZATION BOXES*/
+
+
+
+/*INDIVIDUAL MODULES*/
+
+.inputMod{
+  display: flex;
+  width: 50vw;
+  height: 60px;
+  background-color: var(--off-black);
+  border: none;
+  color: var(--text-color);
+  font-size: var(--standard-text-size);
+  font-family: var(--standard-font);
+  text-align: center;
+}
+
+.equationMod{
+  display: flex;
+  width: 50vw;
+  height: 60px;
+  background-color: var(--off-black);
+  border: none;
+  color: var(--text-color);
+  text-align: center;
+  font-family: var(--equation-font);
+  font-size: var(--standard-eq-size);
+  color: var(--text-color);
+}
+
+/*END INDIVIDUAL MODULES*/
+
+
+
+/*TEXT STYLES*/
+
+.heading{
+  display: flex;
+  font-size: var(--standard-heading-size);
+  color: var(--text-color);
+}
+
+.text{
+  display: flex;
+  font-size: var(--standard-text-size);
+  color: var(--text-color);
+}
+
+.eq{
+  text-align: center;
+  font-size: var(--standard-eq-size);
+  color: var(--text-color);
+}
+
+/*END TEXT STYLES SECTION*/
