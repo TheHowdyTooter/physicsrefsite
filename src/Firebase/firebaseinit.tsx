@@ -11,17 +11,6 @@ import { initializeApp } from "firebase/app";
 
 const firebaseConfig = {
 
-  apiKey: "AIzaSyAs5ezsPc22FylZpDBCuiE46NCfDcswMP4",
-
-  authDomain: "physicsrefsite.firebaseapp.com",
-
-  projectId: "physicsrefsite",
-
-  storageBucket: "physicsrefsite.firebasestorage.app",
-
-  messagingSenderId: "347719608640",
-
-  appId: "1:347719608640:web:cfa07039f7d4d5890c72a5"
 
 };
 
