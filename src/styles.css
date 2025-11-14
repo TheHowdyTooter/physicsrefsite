@@ -17,6 +17,8 @@ html{
   justify-content:center;
   align-items:flex-start;
   background-color: var(--off-black);
+  margin: 0;
+  
 }
 
 /*END INIT SECTION*/
